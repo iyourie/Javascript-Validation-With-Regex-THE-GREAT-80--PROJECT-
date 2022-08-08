@@ -1,0 +1,20 @@
+* {
+    font-family: "Major Mono Display", monospace;
+    font-weight: bold;
+}
+body {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+[type="submit"] {
+    cursor: pointer;
+}
+input{
+    margin-top: 5px;
+}

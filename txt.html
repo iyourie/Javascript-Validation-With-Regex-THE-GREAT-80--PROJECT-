@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Validation With Regex</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <form action="">
+        <input type="text" pattern="\w+?\s{0}" title="the username should not contain spaces">
+        <input type="email" pattern="[a-z0-9._%+-]+@gmail.com" title="format: ...@gmail.com">
+        <input type="password" pattern="--[A-Z]{5}[\W\D]{6}"
+            title="password must be : (--)(five capital letters)(six symbols)">
+        <input type="submit" value="submit">
+    </form>
+
+</body>
+
+</html>
